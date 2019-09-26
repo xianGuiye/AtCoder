@@ -2,9 +2,11 @@ S = int(input())
 yymm = True
 mmyy = True
 
-
-if S >= 1300 or S < 100:
+#13月は存在しない
+if S >= 1300:
     mmyy = False
+
+#0月と13月は存在しない
 if S%100 >= 13 or S%100 == 0:
     yymm = False
 

@@ -1,6 +1,7 @@
 N = int(input())
-
 grid = []
+
+
 for i in range(N-1):
     array = list(map(int, input().strip().split()))
     grid.append(array)
